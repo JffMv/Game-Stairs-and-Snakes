@@ -15,9 +15,12 @@ PoobStairs es una implementación en Java del clásico juego de mesa "Escaleras 
 1. Clona el repositorio o descarga el código fuente.
 2. Abre el proyecto en IntelliJ IDEA o tu IDE favorito.
 3. Asegúrate de tener configurado el JDK.
-4. Ejecuta la clase `src/presentation/PoobStairsGUI.java` como aplicación Java.
-5. ```java -cp bin presentation.PoobStairsGUI```
-6. La interfaz gráfica se abrirá y podrás comenzar a jugar.
+4. Compila el proyecto:
+   - con el comando de terminal: `javac -d bin src/domain/*.java src/presentation/*.java`
+   NOTA: Asegúrate de que la carpeta `bin/` esté vacía antes de compilar y tener descargado todas las librerias necesarias.
+5. Ejecuta la clase `src/presentation/PoobStairsGUI.java` como aplicación Java.
+6. ```java -cp bin presentation.PoobStairsGUI```
+7. La interfaz gráfica se abrirá y podrás comenzar a jugar.
 
 ## ¿Qué arquitectura tiene?
 
