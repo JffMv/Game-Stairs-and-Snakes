@@ -76,4 +76,5 @@ Las pruebas pueden implementarse usando JUnit en la carpeta `test/`. Actualmente
 
 ## Autor
 
-- JffMv
+- ![Yeferson Mesa](https://github.com/JffMv)
+- Julian Camacho
