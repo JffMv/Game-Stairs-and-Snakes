@@ -62,7 +62,7 @@ Las pruebas pueden implementarse usando JUnit en la carpeta `test/`. Actualmente
     docker run -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix poobstairs
     ```
 
-> **Nota:** Para ejecutar aplicaciones gráficas en Docker, es necesario compartir el servidor X del host.
+> **Nota:** Para ejecutar aplicaciones g[presentation](src/presentation)ráficas en Docker, es necesario compartir el servidor X del host.
 
 ## ¿Cómo se puede desplegar?
 
@@ -72,10 +72,15 @@ Las pruebas pueden implementarse usando JUnit en la carpeta `test/`. Actualmente
 
 ## Resultados de cómo se ve
 
-![Pantalla principal](img/snake_inicio.png)
-![Tablero de juego](img/win.jpg)
+- **Videojuego SIN transformaciones en escaleras y serpientes -** un jugador humano vs máquina, donde la máquina es un jugador que lanza el dado y se mueve automáticamente:
+![Sin Transforamciones](README/sin-transformaciones.gif)
+
+- **Videojuego CON transformaciones en escaleras y serpientes -** dos jugadores humanos:
+  ![Con Transforamciones](README/con-transformaciones.gif)
+
+
 
 ## Autor
 
-- ![Yeferson Mesa](https://github.com/JffMv)
+- [Yeferson Mesa](https://github.com/JffMv)
 - Julian Camacho
